@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - dataurl-to-blob > jshint > lodash:
+        patched: '2024-09-14T07:09:50.332Z'
+        id: SNYK-JS-LODASH-567746
+        path: dataurl-to-blob > jshint > lodash
+    - item-bank > ant-design-vue > lodash:
+        patched: '2024-09-14T07:09:50.332Z'
+        id: SNYK-JS-LODASH-567746
+        path: item-bank > ant-design-vue > lodash
+    - '@antv/data-set > dagre > lodash':
+        patched: '2024-09-14T07:09:50.332Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@antv/data-set > dagre > lodash'
+    - '@antv/data-set > dagre > graphlib > lodash':
+        patched: '2024-09-14T07:09:50.332Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@antv/data-set > dagre > graphlib > lodash'
+    - babel-plugin-import > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2024-09-14T07:09:50.332Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-import > @babel/helper-module-imports > @babel/types >
+          lodash
+  'npm:lodash:20180130':
+    - postal.federation > lodash:
+        patched: '2024-09-14T07:09:50.332Z'
+        id: 'npm:lodash:20180130'
+        path: postal.federation > lodash
